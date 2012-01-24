@@ -20,6 +20,11 @@
 *.tar
 *.zip
 
+# Temp files #
+#############
+*.sw[lmnop]
+*~
+
 # Logs and databases #
 ######################
 *.log
