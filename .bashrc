@@ -99,3 +99,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 PATH="/var/lib/gems/1.8/bin/:$PATH"
+export EDITOR="vim"
