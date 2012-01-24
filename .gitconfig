@@ -1,0 +1,18 @@
+[user]
+	name = Joel Bradshaw
+	email = cincodenada@gmail.com
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1241x523+0+0
+	history-view-vpane-position = 296
+	main-window-view = FileView
+	file-view-vpane-position = 433
+[gui]
+	recentrepo = /home/joel/turk
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	cmd = /usr/bin/bcompare $LOCAL $REMOTE $BASE $MERGED
+	trustExitCode = true
+[core]
+	excludesfile = /home/joel/.gitignore_global
